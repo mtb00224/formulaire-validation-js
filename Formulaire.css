@@ -1,0 +1,25 @@
+label{
+	float: right;
+}
+input{
+	padding: 5px 5px 5px 5px;
+}
+input[type="submit"]{
+	color: #FFFFFF;
+	background: blue;	
+}
+i[class="fa fas fa-check"]{
+	color: green;
+}
+i[class="fa fas fa-times"]{
+	color: red;
+}
+.teste{
+	display: flex;
+}
+.truc{
+	display: flex;
+}
+span{
+	display: flex;
+}

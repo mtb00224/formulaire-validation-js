@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>mon-formulaire</title>
+	<link rel="stylesheet" type="text/css" href="Formulaire.css">
+</head>
+<body>
+	<div>
+		<form method="post" action="">
+			<fieldset>
+				<legend>Inscription</legend>
+				<table>
+					<tr>
+						<td><label id="sexe" for="genre">Sexe</label></td>
+						<td>
+							<section id="testt">
+								<input type="radio" name="masculin" id="masculin">	
+								Masculin
+								<input type="radio" name="masculin" id="genre">	
+								Feminin
+							</section>
+								
+						</td>
+						<td><div class="teste"><span id="el-sexe"></span></div></td>
+					</tr>
+					<tr>
+						<td><label for="nom">Nom</label></td>
+						<td><input type="text" name="nom" id="nom"></td>
+						<td><div class="teste"><span id="el-nom"></span></div></td>
+					</tr>
+					<tr>
+						<td><label for="prenom">Prenom</label></td>
+						<td><input type="text" name="prenom" id="prenom"></td>
+						<td><div class="teste"><span id="el-prenom"></span></div></td>
+					</tr>
+					<tr>
+						<td><label for="age">Age</label></td>
+						<td><input type="" name="age" id="age"></td>
+						<td><div class="teste"><span id="el-age"></span></div></td>
+					</tr>
+					<tr>
+						<td><label for="pseudo">Pseudo</label></td>
+						<td><input type="text" name="text" id="pseudo"></td>
+						<td><div class="teste"><span id="el-pseudo"></span></div></td>
+					</tr>
+					<tr>
+						<td><label for="mdp1">Mot de passe</label></td>
+						<td><input type="password" name="mdp1" id="mdp1"></td>
+						<td><div class="teste"></i><span id="el-mdp1"></span></div></td>
+					</tr>
+					<tr>
+						<td><label for="mdp2">Mot de passe (confirmation)</label></td>
+						<td><input type="password" name="mdp2" id="mdp2"></td>
+						<td><div class="teste"><span id="el-mdp2"></span></div></td>
+					</tr>
+					<tr>
+						<td><label>Selectionner votre pays</label></td>
+						<td>
+							<select id="pays" for="pays">
+								<option>Choisir votre pays</option>
+								<option id="country">Senegal</option>
+								<option>Guinée</option>
+								<option>Canada</option>
+								<option>Japon</option>
+							</select>
+						</td>
+						<td><div class="teste"><span id="el-pays"></span></div></td>
+					</tr>
+					<tr>
+						<td><label>Recevoir des mails</label></td>
+						<td><input type="checkbox" name="avoirmail" id="avoirmail" checked></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><input type="submit" value="Envoyer" id="envoyer"></td>
+						<td><span  class="truc"><img src='attention.png'>Toutes les informations nont pas éte correctement remplies</span></td>
+					</tr>
+				</table>
+			</fieldset>
+		</form>
+	</div>
+	<script type="text/javascript" src="test.js"></script>
+</body>
+</html>
